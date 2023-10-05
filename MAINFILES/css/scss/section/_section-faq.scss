@@ -1,0 +1,81 @@
+/* faq */
+
+#faq-section {
+    padding: 0 0 100px 0;
+    
+    .faq-info {
+        h3 {
+            font-size: 45px;
+            font-weight: 700;
+            color: $colorTre;
+        }
+
+        span {
+            position: relative;
+            z-index: 1;
+            color: $colorSix;
+        }
+    }
+
+.faq-accordion-item,
+.faq__collapse-item,
+.faq-collapse-item {
+    border: 1px solid $colorOne;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.faq-accordion-item:last-child,
+.faq__collapse-item:last-child,
+.faq-collapse-item:last-child {
+    margin: 0;
+}
+.faq-collapse-item-card{
+    border-bottom: 1px solid $colorTwo;
+}
+.faq-accordion-item-card-header,
+.faq__collapse-item-card-header,
+.faq-collapse-item-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    padding: 16px 30px;
+}
+
+.faq-accordion-item-card-header h6,
+.faq__collapse-item-card-header h6,
+.faq-collapse-item-card-header h6 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.faq-accordion-item-card-header i,
+.faq__collapse-item-card-header i,
+.faq-collapse-item-card-header i {
+    color: $colorTre;
+}
+
+.faq-accordion-item-card-header span,
+.faq__collapse-item-card-header span,
+.faq-collapse-item-card-header span {
+    color: $colorTre;
+    margin-right: 15px;
+}
+
+.faq-accordion-item-card-header-content,
+.faq__collapse-item-card-header-content,
+.faq-collapse-item-card-header-content {
+    padding: 0 30px 25px 64px;
+}
+
+.faq-accordion-item-card-header-content p,
+.faq__collapse-item-card-header-content p,
+.faq-collapse-item-card-header-content p {
+    margin-top: -4px;
+    font-size: 18px;
+    color: $colorTwo;
+}
+}

@@ -1,0 +1,65 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 05.WHY SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+
+#why-section {
+    background: $colorTre;
+    padding: 150px 0;
+
+    .why-info {
+        span {
+            color: $colorSix;
+        }
+
+        h3 {
+            line-height: 1.3;
+            font-size: 45px;
+            font-weight: 700;
+            color: $colorOne;
+        }
+
+        ul {
+            padding: 0;
+
+            li {
+                list-style: none;
+                margin: 20px 0;
+                font-size: 18px;
+                color: $colorOne;
+
+                i {
+                    font-size: 30px;
+                    margin: 0 20px 0 0;
+                    color: $colorSix;
+                }
+            }
+        }
+    }
+
+    .halfwhy {
+        padding: 0;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+/* media query */
+
+@media screen and (max-width: 1024px) {
+    .why-info {
+        display: block;
+
+        span {
+            font-size: 15px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+    }
+}

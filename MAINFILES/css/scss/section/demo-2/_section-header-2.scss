@@ -1,0 +1,121 @@
+#main-header {
+
+    width: 100%;
+    z-index: 999;
+    transition: all 0.3s ease;
+
+    &.fixihead {
+        .in-top {
+            display: none;
+        }
+
+        .main-nav {
+            background: $bgTre;
+
+        }
+    }
+
+    a {
+        &.logobrand {
+            text-decoration: none;
+            color: #fd4632;
+            font-size: 25px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+    }
+
+    &.fixihead {
+        a {
+            &.logobrand {
+                color: #fff;
+            }
+        }
+    }
+    .in-top {
+        position: relative;
+        padding: 0;
+        height: 50px;
+        background: $bgTre;
+
+        ul {
+            li {
+
+                a {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .main-nav {
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+    }
+
+    .navbar-nav {
+        li {
+            font-size: 15px;
+            margin: 0 10px;
+            letter-spacing: 1px;
+
+            a {
+                color: $colorOne;
+                font-weight: 700;
+                position: relative;
+                padding: 20px 0;
+                display: inline-block;
+
+                &:hover {
+                    color: $colorSix;
+
+                    &:before {
+                        width: 100%;
+                    }
+                }
+
+                &.nav-link {
+                    &.active {
+                        color: $colorSix;
+
+                        &:before {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* media query */
+
+@media screen and (max-width: 999px) {
+    #main-header {
+        background: $bgTre;
+
+        .in-top {
+            display: none;
+        }
+
+        .navbar {
+            padding: 20px;
+
+            &.main-nav {
+                background: $bgTre;
+            }
+
+            .navbar-nav {
+                padding: 0;
+
+                li {
+                    a {
+                        padding: 10px 0;
+                    }
+                }
+            }
+        }
+    }
+}

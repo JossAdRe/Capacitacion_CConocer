@@ -1,0 +1,73 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 04.ABOUT SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+
+#about-section {
+    padding: 100px 0;
+    .about-info {
+        span {
+            color: $colorFour;
+        }
+
+        h3 {
+            line-height: 1.3;
+            font-size: 45px;
+            font-weight: 700;
+            color: $colorTre;
+        }
+
+        p {
+            color: $colorTwo;
+        }
+    }
+}
+
+
+.potoabout {
+    width: 100%;
+}
+
+.otherabout-info {
+    display: flex;
+    align-items: center;
+
+    .half {
+        padding-right: 40px;
+        margin-right: 40px;
+
+        h3 {
+            font-size: 70px;
+            font-weight: 700;
+            color: $colorSix;
+        }
+
+        h6 {
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 1.5;
+            color: $colorTre;
+        }
+    }
+}
+
+/* media query */
+
+@media screen and (max-width: 1024px) {
+
+    .about-info {
+        span {
+            font-size: 15px;
+        }
+
+        h3 {
+            font-size: 30px;
+        }
+    }
+
+    .otherabout-info {
+        display: block;
+    }
+
+}

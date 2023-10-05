@@ -1,0 +1,90 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 10.CONTACT SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+
+#contact-section {
+    background: url(../asset/page/t.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .map-wrap {
+        iframe {
+            height: 500px;
+            width: 100%;
+        }
+    }
+
+    .contact-form {
+        top: -150px;
+        position: relative;
+        padding: 50px 50px 0 50px;
+        z-index: 9;
+        background: $colorOne;
+
+        .form-wrap {
+            padding: 50px;
+            border: 1px solid $colorTwo;
+
+            .input {
+                display: block;
+                width: 100%;
+                padding: 10px 20px;
+                font-size: 1rem;
+                line-height: 1.5;
+                color: $colorTre;
+                background-color: $colorOne;
+                background-clip: padding-box;
+                border-radius: 3px;
+
+                &:focus-visible {
+                    outline: 1px solid $colorSix !important;
+                }
+            }
+        }
+    }
+
+    .infocontact {
+        span {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        a {
+            color: $colorTwo;
+
+            &:hover {
+                color: $colorSix;
+            }
+        }
+
+        p {
+            font-size: 15px;
+            color: $colorTwo;
+        }
+    }
+
+    .item-partner {
+        width: 200px;
+        padding: 10px 15px 15px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+}
+
+/* media query */
+
+@media screen and (max-width: 999px) {
+    .contact-form {
+        .form-wrap {
+            padding: 0 !important;
+            border: unset !important;
+        }
+    }
+}
+
+
+
+
+

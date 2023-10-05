@@ -1,0 +1,191 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    height: auto;
+    background: $colorOne;
+    color: $colorTre;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+label {
+    font-size: 15px;
+}
+
+textarea {
+    height: 200px;
+}
+a {
+    text-decoration: none;
+    &:hover { 
+        color: $colorOne;
+    }
+}
+
+.display-none {
+    display: none;
+}
+
+.fixihead {
+    position: fixed !important;
+    width: 100%;
+    padding: 10px 0;
+    top: 0;
+    background: $bgTre;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    -webkit-box-shadow: 2px 2px 6px $bgTransone;
+    -moz-box-shadow: 2px 2px 6px $bgTransone;
+    box-shadow: 0px 1px 15px $bgTransone;
+    z-index: 999;
+}
+
+.detail-wrap {
+    span {
+        font-size: 18px;
+        color: $colorOne;
+        letter-spacing: 1px;
+        display: block;
+        position: relative;
+    }
+
+    p {
+        font-size: 18px;
+        color: $colorOne;
+        line-height: 1.7;
+    }
+}
+
+.btn-big {
+    display: inline-block;
+    background: $bgSix;
+    color: $colorOne;
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+    border: none;
+    cursor: pointer;
+
+    &:after {
+        content: "";
+        position: absolute;
+        height: 1000px;
+        width: 1000px;
+        top: 50%;
+        left: 50%;
+        background: $bgTre;
+        border-radius: 50%;
+        transform: translateY(-50%) translateX(-50%) scale(0);
+        transition: all 0.5s ease-out 0s;
+        z-index: -1;
+    }
+
+    &:hover:after {
+        transform: translateY(-50%) translateX(-50%) scale(1);
+    }
+
+}
+
+.scroll-top {
+    z-index: 9;
+    display: block;
+    position: fixed;
+    width: 0;
+    height: 0;
+    bottom: 23px;
+    right: 23px;
+    padding: 0;
+    overflow: hidden;
+    outline: 0;
+    border: none;
+    border-radius: 10px;
+    background: $bgSix;
+    transition: all .3s;
+    box-shadow: 0px 3px 15px 0 $bgTransone;
+
+    &:hover {
+        background: $bgSix;
+    }
+
+    i {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        width: 0;
+        border-radius: 100%;
+        color: $colorOne;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+
+        &:last-child {
+            opacity: 0;
+            visibility: hidden;
+            top: 60%;
+        }
+    }
+
+    &:hover {
+        background: $bgSix;
+
+        i {
+            color: $colorOne;
+
+            &:first-child {
+                opacity: 0;
+                top: 0;
+                visibility: hidden;
+            }
+
+            &:last-child {
+                opacity: 1;
+                visibility: visible;
+                top: 50%;
+                color: $colorOne;
+            }
+        }
+    }
+}
+
+.show {
+    height: auto;
+}
+
+.showin {
+    width: 56px;
+    height: 56px;
+}
+
+.owl-nav {
+    display: none !important;
+}
+
+.owl-dots {
+    display: block !important;
+    margin: 20px 0 0 0 !important;
+
+    .owl-dot {
+        span {
+            width: 20px !important;
+            background: $bgSix !important;
+            opacity: .3;
+        }
+
+        &.active {
+            span {
+                width: 20px !important;
+                background: $bgSix !important;
+                opacity: 1;
+            }
+        }
+    }
+}

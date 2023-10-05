@@ -1,0 +1,334 @@
+/*
+*----------------------------------------------------------------------------------------
+Author        : rama hardian sidik
+Template Name : Engage - Consulting & Business Landing Page Bootstrap Template
+Version       : 1.0
+Filename      : main.css
+* ------------------------------------------------------------ ----------- ------
+  TABLE OF CONTENT
+* ----------------------------------------------------------------------------------------
+* 01.BASE INDEX.
+* 02.HEADER.
+* 03.HERO SECTION.
+* 04.ABOUT SECTION.
+* 05.WHYUS SECTION.
+* 06.SERVICE SECTION.
+* 07.GAP SECTION.
+* 08.COUNTER SECTION.
+* 09.PORTFOLIO SECTION.
+* 10.PRICING SECTION.
+* 11.TESTIMONIAL SECTION.
+* 12.FAQ SECTION.
+* 13.CONTACT SECTION.
+* 14.FOOTER SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+/*
+* ----------------------------------------------------------------------------------------
+* ----------------------------------------------------------------------------------------
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  height: auto;
+  background: #fff;
+  color: #030123;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+label {
+  font-size: 15px;
+}
+
+textarea {
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+
+.display-none {
+  display: none;
+}
+
+.fixihead {
+  position: fixed !important;
+  width: 100%;
+  padding: 10px 0;
+  top: 0;
+  background: #030123;
+  transition: all 0.4s ease;
+  box-shadow: 0px 1px 15px rgba(82, 38, 78, 0.74);
+  z-index: 999;
+}
+
+.detail-wrap span {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+  display: block;
+  position: relative;
+}
+.detail-wrap p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.7;
+}
+
+.btn-big {
+  display: inline-block;
+  background: #fd4632;
+  color: #fff;
+  padding: 20px 50px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  overflow: hidden;
+  z-index: 1;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+.btn-big:after {
+  content: "";
+  position: absolute;
+  height: 1000px;
+  width: 1000px;
+  top: 50%;
+  left: 50%;
+  background: #030123;
+  border-radius: 50%;
+  transform: translateY(-50%) translateX(-50%) scale(0);
+  transition: all 0.5s ease-out 0s;
+  z-index: -1;
+}
+.btn-big:hover:after {
+  transform: translateY(-50%) translateX(-50%) scale(1);
+}
+
+.scroll-top {
+  z-index: 9;
+  display: block;
+  position: fixed;
+  width: 0;
+  height: 0;
+  bottom: 23px;
+  right: 23px;
+  padding: 0;
+  overflow: hidden;
+  outline: 0;
+  border: none;
+  border-radius: 10px;
+  background: #fd4632;
+  transition: all 0.3s;
+  box-shadow: 0px 3px 15px 0 rgba(82, 38, 78, 0.74);
+}
+.scroll-top:hover {
+  background: #fd4632;
+}
+.scroll-top i {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  border-radius: 100%;
+  color: #fff;
+  transition: 0.4s;
+}
+.scroll-top i:last-child {
+  opacity: 0;
+  visibility: hidden;
+  top: 60%;
+}
+.scroll-top:hover {
+  background: #fd4632;
+}
+.scroll-top:hover i {
+  color: #fff;
+}
+.scroll-top:hover i:first-child {
+  opacity: 0;
+  top: 0;
+  visibility: hidden;
+}
+.scroll-top:hover i:last-child {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+  color: #fff;
+}
+
+.show {
+  height: auto;
+}
+
+.showin {
+  width: 56px;
+  height: 56px;
+}
+
+.owl-nav {
+  display: none !important;
+}
+
+.owl-dots {
+  display: block !important;
+  margin: 20px 0 0 0 !important;
+}
+.owl-dots .owl-dot span {
+  width: 20px !important;
+  background: #fd4632 !important;
+  opacity: 0.3;
+}
+.owl-dots .owl-dot.active span {
+  width: 20px !important;
+  background: #fd4632 !important;
+  opacity: 1;
+}
+
+#main-header {
+  width: 100%;
+  z-index: 999;
+  transition: all 0.3s ease;
+}
+#main-header.fixihead .in-top {
+  display: none;
+}
+#main-header.fixihead .main-nav {
+  background: #030123;
+}
+#main-header a.logobrand {
+  text-decoration: none;
+  color: #fd4632;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+#main-header.fixihead a.logobrand {
+  color: #fff;
+}
+#main-header .in-top {
+  position: relative;
+  padding: 0;
+  height: 50px;
+  background: #030123;
+}
+#main-header .in-top ul li a {
+  font-weight: 500;
+}
+#main-header .main-nav {
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+}
+#main-header .navbar-nav li {
+  font-size: 15px;
+  margin: 0 10px;
+  letter-spacing: 1px;
+}
+#main-header .navbar-nav li a {
+  color: #fff;
+  font-weight: 700;
+  position: relative;
+  padding: 20px 0;
+  display: inline-block;
+}
+#main-header .navbar-nav li a:hover {
+  color: #fd4632;
+}
+#main-header .navbar-nav li a:hover:before {
+  width: 100%;
+}
+#main-header .navbar-nav li a.nav-link.active {
+  color: #fd4632;
+}
+#main-header .navbar-nav li a.nav-link.active:before {
+  width: 100%;
+}
+
+/* media query */
+@media screen and (max-width: 999px) {
+  #main-header {
+    background: #030123;
+  }
+  #main-header .in-top {
+    display: none;
+  }
+  #main-header .navbar {
+    padding: 20px;
+  }
+  #main-header .navbar.main-nav {
+    background: #030123;
+  }
+  #main-header .navbar .navbar-nav {
+    padding: 0;
+  }
+  #main-header .navbar .navbar-nav li a {
+    padding: 10px 0;
+  }
+}
+/*
+* ----------------------------------------------------------------------------------------
+* 03.HERO SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+#hero-section {
+  padding: 100px 0;
+  background-image: url(../../../asset/hero/1-2.jpg);
+  background-size: cover;
+  align-self: center;
+  position: relative;
+  background-position: center center;
+  padding: 160px 0 0;
+}
+#hero-section:after {
+  content: "";
+  position: absolute;
+  background: rgba(82, 38, 78, 0.74);
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+#hero-section .hero-info {
+  height: 700px;
+  display: table;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+#hero-section .hero-info h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.3;
+  color: #fff;
+}
+#hero-section .hero-info p {
+  font-size: 24px;
+  color: #fff;
+}
+#hero-section .hero-info .featured {
+  display: inline-block;
+  position: relative;
+}
+#hero-section .hero-info .featured:after {
+  content: "";
+  background: #fd4632;
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+}/*# sourceMappingURL=main-2.css.map */

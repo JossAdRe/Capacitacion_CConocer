@@ -1,0 +1,133 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 11.FOOTER SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+
+#footer-section {
+    padding: 100px 0;
+    background: linear-gradient(to left, $colorTre 10%, $colorEg 100%) !important;
+    position: relative;
+    z-index: 1;
+
+    .sosmed-link {
+        padding: 0;
+
+        li {
+            display: inline-block;
+            margin: 0 10px;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            a {
+                i {
+                    font-size: 16px;
+                    color: $colorOne;
+                    text-align: center;
+                    width: 50px;
+                    height: 50px;
+                    line-height: 50px;
+                    background: $bgTransone;
+                    border-radius: 3px;
+                    transition: all .3s;
+                }
+
+                &:hover {
+                    i {
+                        background: $bgOne;
+                        color: $colorSix;
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        p {
+            &.footer-logo {
+                text-decoration: none;
+                color: $colorSix;
+                font-size: 25px;
+                letter-spacing: 2px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .footer-item-icon {
+        position: absolute;
+        margin: 0 20px 0 0;
+
+        i {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid $colorTwo;
+            border-radius: 50%;
+            color: $colorSix;
+        }
+    }
+
+    .footer-item-info {
+        color: $colorOne;
+        font-weight: 500;
+        font-size: 16px;
+        padding: 0 0 0 60px;
+        line-height: 26px;
+        max-width: 100%;
+        display: inline-block;
+
+        a {
+            color: $colorOne;
+        }
+    }
+
+    .footer-inner {
+        padding: 10px 0;
+
+        a {
+            display: block;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.8;
+            color: $colorOne;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: $colorOne;
+            font-weight: 700;
+        }
+    }
+}
+
+
+
+
+
+
+.link-footer {
+    padding: 0;
+    li {
+        list-style: none;
+        margin: 10px 0;
+        a {
+            font-size: 18px;
+            color: $colorOne;
+            transition: all .3s;
+            &:hover {
+                color: $colorSix;
+                padding: 0 5px;
+            }
+        }
+    }
+}
+ 

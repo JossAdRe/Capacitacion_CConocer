@@ -1,0 +1,53 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 08.COUNTER SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+
+#counter-section {
+    padding: 100px 0;
+    background: $bgNin;
+
+    .odometer-wrap {
+        position: relative;
+        z-index: 1;
+        font-size: 30px;
+        color: $colorTre;
+        font-weight: 700;
+        padding: 50px 20px;
+
+        i {
+
+            font-size: 50px;
+            display: block;
+            margin: 0 0 30px;
+            height: 100px;
+            font-weight: 400;
+            width: 100px;
+            color: $colorOne;
+            line-height: 100px; 
+            background: $colorSix;
+            text-align: center;
+            margin: 0 auto 30px;
+            border-radius: 50px;
+
+        }
+
+        .odometer {
+            font-size: 50px;
+            font-weight: 700;
+            color: $colorTre;
+          
+        }
+        .unit {
+            position: relative;
+            top: -15px;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 18px !important;
+            color: $colorTwo !important;
+            font-weight: 500;
+        }
+    }
+}

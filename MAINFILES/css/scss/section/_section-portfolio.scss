@@ -1,0 +1,146 @@
+/*
+* ----------------------------------------------------------------------------------------
+* 09.PORTFOLIO SECTION.
+* ----------------------------------------------------------------------------------------
+*/
+
+#portfolio-section {
+    padding: 100px 0;
+
+    .portfolio-info {
+        h3 {
+            line-height: 1.3;
+            font-size: 45px;
+            font-weight: 700;
+            color: $colorTre;
+        }
+
+        span {
+            font-size: 18px;
+            color: $colorSix;
+            letter-spacing: 1px;
+            display: block;
+            position: relative;
+        }
+
+        p {
+            color: $colorTwo;
+        }
+    }
+
+    .project-item {
+        position: relative;
+
+        img {
+            width: 100%;
+        }
+
+        &:after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background: $colorTre;
+            opacity: 0;
+            left: 0;
+            transition: all .3s;
+        }
+
+        &:hover:after {
+            opacity: .7;
+        }
+
+        &:hover .projectitem-content {
+            opacity: 1;
+            bottom: 40px;
+        }
+
+        .projectitem-content {
+            position: absolute;
+            bottom: 20px;
+            left: 40px;
+            right: 40px;
+            padding: 40px 30px;
+            z-index: 1;
+            transition: 0.4s;
+            background: $bgOne;
+            color: $colorTre;
+            opacity: 0;
+            overflow: hidden;
+
+            span {
+                font-size: 16px;
+                line-height: 26px;
+                color: $colorSix;
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}
+
+
+.filter-portowrap {
+    padding: 0 0 40px 0;
+    padding-left: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.wraplistfilter {
+    position: relative;
+    z-index: 1;
+
+    ul {
+        padding-left: 0;
+        display: inline-block;
+        margin: 0 auto;
+        text-align: center;
+
+        li {
+            list-style: none;
+            float: left;
+
+            a {
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 13px;
+                display: inline-block;
+                color: $colorTre;
+                padding: 0 10px;
+                margin: 0 14px;
+                -webkit-transition: all .2s ease-in-out .2s;
+                transition: all .2s ease-in-out .2s;
+
+                &:nth-last-child(1) {
+                    margin-left: 0;
+                    padding-left: 0;
+
+                }
+
+                &.aktip {
+                    color: $colorSix;
+                }
+
+                &:hover {
+                    text-decoration: none;
+                    color: $colorSix;
+                }
+            }
+        }
+    }
+}
+
+/* media Query */
+
+@media (max-width: 1024px) {
+    .masonry-item {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    .masonry-item {
+        width: 100%;
+    }
+}
