@@ -66,7 +66,7 @@ a:hover {
   top: 0;
   background: #030123;
   transition: all 0.4s ease;
-  box-shadow: 0px 1px 15px rgba(82, 38, 78, 0.74);
+  box-shadow: 0px 1px 15px #423f9fbd;
   z-index: 999;
 }
 
@@ -85,7 +85,7 @@ a:hover {
 
 .btn-big {
   display: inline-block;
-  background: #fd4632;
+  background: #09017e;
   color: #fff;
   padding: 20px 50px;
   border-radius: 5px;
@@ -127,12 +127,12 @@ a:hover {
   outline: 0;
   border: none;
   border-radius: 10px;
-  background: #fd4632;
+  background: #030123;
   transition: all 0.3s;
-  box-shadow: 0px 3px 15px 0 rgba(82, 38, 78, 0.74);
+  box-shadow: 0px 3px 15px 0 #423f9fbd;
 }
 .scroll-top:hover {
-  background: #fd4632;
+  background: #030123;
 }
 .scroll-top i {
   font-size: 20px;
@@ -151,7 +151,7 @@ a:hover {
   top: 60%;
 }
 .scroll-top:hover {
-  background: #fd4632;
+  background: #030123;
 }
 .scroll-top:hover i {
   color: #fff;
@@ -187,12 +187,12 @@ a:hover {
 }
 .owl-dots .owl-dot span {
   width: 20px !important;
-  background: #fd4632 !important;
+  background: #030123 !important;
   opacity: 0.3;
 }
 .owl-dots .owl-dot.active span {
   width: 20px !important;
-  background: #fd4632 !important;
+  background: #030123 !important;
   opacity: 1;
 }
 
@@ -209,7 +209,7 @@ a:hover {
 }
 #main-header a.logobrand {
   text-decoration: none;
-  color: #fd4632;
+  color: #ffffff;
   font-size: 25px;
   letter-spacing: 2px;
   font-weight: 700;
@@ -243,13 +243,13 @@ a:hover {
   display: inline-block;
 }
 .navbar-nav li a:hover {
-  color: #fd4632;
+  color: #030123;
 }
 .navbar-nav li a:hover:before {
   width: 100%;
 }
 .navbar-nav li a.nav-link.active {
-  color: #fd4632;
+  color: #150c95;
 }
 .navbar-nav li a.nav-link.active:before {
   width: 100%;
@@ -286,7 +286,7 @@ a:hover {
 #hero-section:after {
   content: "";
   position: absolute;
-  background: rgba(82, 38, 78, 0.74);
+  background: rgba(38, 38, 82, 0.74);
   left: 0;
   top: 0;
   width: 100%;
@@ -330,7 +330,7 @@ a:hover {
   padding: 100px 0;
 }
 #about-section .about-info span {
-  color: #ff7700;
+  color: #030123;
 }
 #about-section .about-info h3 {
   line-height: 1.3;
@@ -357,7 +357,7 @@ a:hover {
 .otherabout-info .half h3 {
   font-size: 70px;
   font-weight: 700;
-  color: #fd4632;
+  color: #030123;
 }
 .otherabout-info .half h6 {
   font-weight: 500;
@@ -388,7 +388,7 @@ a:hover {
   padding: 150px 0;
 }
 #why-section .why-info span {
-  color: #fd4632;
+  color: #030123;
 }
 #why-section .why-info h3 {
   line-height: 1.3;
@@ -408,7 +408,7 @@ a:hover {
 #why-section .why-info ul li i {
   font-size: 30px;
   margin: 0 20px 0 0;
-  color: #fd4632;
+  color: #030123;
 }
 #why-section .halfwhy {
   padding: 0;
@@ -438,7 +438,7 @@ a:hover {
   padding: 100px 0;
 }
 #service-section .service-info span {
-  color: #fd4632;
+  color: #030123;
 }
 #service-section .service-info h3 {
   line-height: 1.3;
@@ -456,7 +456,7 @@ a:hover {
 .feature-wrap--inner i {
   font-size: 60px;
   margin: 0 30px 0 0;
-  color: #fd4632;
+  color: #030123;
 }
 
 .feature-wrap p {
@@ -500,7 +500,7 @@ a:hover {
   top: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, #fd4632 5%, #fa3a72 51%, #fd4632 100%);
+  background-image: linear-gradient(to right, #030123 5%, #030123 51%, #030123 100%);
   opacity: 0.9;
 }
 #gap-section .halfwhy {
@@ -549,7 +549,7 @@ a:hover {
 }
 #gap-section .video-wrap .video a {
   position: relative;
-  color: #fd4632;
+  color: #030123;
   font-size: 20px;
   z-index: 1;
   background: #fff;
@@ -611,7 +611,7 @@ a:hover {
   width: 100px;
   color: #fff;
   line-height: 100px;
-  background: #fd4632;
+  background: #030123;
   text-align: center;
   margin: 0 auto 30px;
   border-radius: 50px;
@@ -648,7 +648,7 @@ a:hover {
 }
 #portfolio-section .portfolio-info span {
   font-size: 18px;
-  color: #fd4632;
+  color: #030123;
   letter-spacing: 1px;
   display: block;
   position: relative;
@@ -695,7 +695,7 @@ a:hover {
 #portfolio-section .project-item .projectitem-content span {
   font-size: 16px;
   line-height: 26px;
-  color: #fd4632;
+  color: #030123;
   display: block;
   margin-bottom: 5px;
 }
@@ -736,11 +736,11 @@ a:hover {
   padding-left: 0;
 }
 .wraplistfilter ul li a.aktip {
-  color: #fd4632;
+  color: #030123;
 }
 .wraplistfilter ul li a:hover {
   text-decoration: none;
-  color: #fd4632;
+  color: #030123;
 }
 
 /* media Query */
@@ -770,7 +770,7 @@ a:hover {
 #price-section .price-info span {
   position: relative;
   z-index: 1;
-  color: #fd4632;
+  color: #030123;
 }
 #price-section .price-wrap {
   padding: 50px 40px;
@@ -799,7 +799,7 @@ a:hover {
   line-height: 34px;
   padding: 0;
   margin: 0;
-  color: #fd4632;
+  color: #030123;
   font-weight: 700;
 }
 #price-section .price-wrap .pricing-box span {
@@ -832,7 +832,7 @@ a:hover {
 #price-section .pricing-plan li i {
   font-size: 30px;
   margin: 0 20px 0 0;
-  color: #fd4632;
+  color: #030123;
   position: absolute;
   left: 0;
 }
@@ -865,7 +865,7 @@ a:hover {
 }
 #testimonial-section .testimonial-info span {
   font-size: 18px;
-  color: #fd4632;
+  color: #030123;
   letter-spacing: 1px;
   display: block;
   position: relative;
@@ -913,7 +913,7 @@ a:hover {
   color: #53545A;
 }
 #testimonial-section .owl-item.active.center .itemtesti {
-  background: #fd4632;
+  background: #030123;
 }
 #testimonial-section .owl-item.active.center .itemtesti p {
   color: #fff !important;
@@ -939,7 +939,7 @@ a:hover {
   transition: 0.4s;
 }
 #testimonial-section .button-testi div:hover i {
-  background-color: #fd4632;
+  background-color: #030123;
   color: #fff;
 }
 
@@ -955,7 +955,7 @@ a:hover {
 #faq-section .faq-info span {
   position: relative;
   z-index: 1;
-  color: #fd4632;
+  color: #030123;
 }
 #faq-section .faq-accordion-item,
 #faq-section .faq__collapse-item,
@@ -1050,7 +1050,7 @@ a:hover {
   border-radius: 3px;
 }
 #contact-section .contact-form .form-wrap .input:focus-visible {
-  outline: 1px solid #fd4632 !important;
+  outline: 1px solid #030123 !important;
 }
 #contact-section .infocontact span {
   font-size: 18px;
@@ -1060,7 +1060,7 @@ a:hover {
   color: #53545A;
 }
 #contact-section .infocontact a:hover {
-  color: #fd4632;
+  color: #030123;
 }
 #contact-section .infocontact p {
   font-size: 15px;
@@ -1087,7 +1087,7 @@ a:hover {
 */
 #footer-section {
   padding: 100px 0;
-  background: linear-gradient(to left, #030123 10%, #592036 100%) !important;
+  background: linear-gradient(to left, #030123 10%, #282059 100%) !important;
   position: relative;
   z-index: 1;
 }
@@ -1108,17 +1108,17 @@ a:hover {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background: rgba(82, 38, 78, 0.74);
+  background: rgba(48, 54, 141, 0.74);
   border-radius: 3px;
   transition: all 0.3s;
 }
 #footer-section .sosmed-link li a:hover i {
   background: #fff;
-  color: #fd4632;
+  color: #030123;
 }
 #footer-section a p.footer-logo {
   text-decoration: none;
-  color: #fd4632;
+  color: #030123;
   font-size: 25px;
   letter-spacing: 2px;
   font-weight: 700;
@@ -1136,7 +1136,7 @@ a:hover {
   font-size: 20px;
   border: 1px solid #53545A;
   border-radius: 50%;
-  color: #fd4632;
+  color: #030123;
 }
 #footer-section .footer-item-info {
   color: #fff;
@@ -1181,6 +1181,6 @@ a:hover {
   transition: all 0.3s;
 }
 .link-footer li a:hover {
-  color: #fd4632;
+  color: #030123;
   padding: 0 5px;
 }/*# sourceMappingURL=main.css.map */
