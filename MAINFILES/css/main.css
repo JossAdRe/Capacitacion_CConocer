@@ -243,7 +243,7 @@ a:hover {
   display: inline-block;
 }
 .navbar-nav li a:hover {
-  color: #030123;
+  color: #ffffff;
 }
 .navbar-nav li a:hover:before {
   width: 100%;
@@ -1087,7 +1087,7 @@ a:hover {
 */
 #footer-section {
   padding: 100px 0;
-  background: linear-gradient(to left, #030123 10%, #282059 100%) !important;
+  /*background: linear-gradient(to left, #030123 10%, #282059 100%) !important;*/
   position: relative;
   z-index: 1;
 }
@@ -1136,7 +1136,7 @@ a:hover {
   font-size: 20px;
   border: 1px solid #53545A;
   border-radius: 50%;
-  color: #030123;
+  color: #150c95;/*iconos*/
 }
 #footer-section .footer-item-info {
   color: #fff;
@@ -1181,6 +1181,6 @@ a:hover {
   transition: all 0.3s;
 }
 .link-footer li a:hover {
-  color: #030123;
+  color: #150c95;
   padding: 0 5px;
 }/*# sourceMappingURL=main.css.map */
